@@ -163,6 +163,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IShippingServiice, ShippingService>();
 
 // ضيف الـ Stripe Secret Key
 //StripeConfiguration.ApiKey =
